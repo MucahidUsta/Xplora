@@ -1,5 +1,5 @@
 export const deleteFromCloudinary = async (publicId) => {
-  const CLOUDINARY_URL = `https://api.cloudinary.com/v1_1/dj1rlc1cm/image/destroy`;
+  const CLOUDINARY_URL = `YOUR_CLOUDINARY_URL`;
 
   const formData = new FormData();
   formData.append("public_id", publicId);
