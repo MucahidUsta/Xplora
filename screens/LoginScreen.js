@@ -30,7 +30,7 @@ const LoginScreen = ({ navigation }) => {
 
   const [request, response, promptAsync] = Google.useIdTokenAuthRequest({
     clientId:
-      "552494983202-l4o7ah2djp6iq8abtpd149lv6ler4slj.apps.googleusercontent.com",
+      "YOUR.apps.googleusercontent.com",
     redirectUri: Linking.createURL("/"),
   });
 
